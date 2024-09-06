@@ -1,33 +1,6 @@
-32 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
-32 error npm ERR! code ERESOLVE
-32 error npm ERR! ERESOLVE could not resolve
-32 error npm ERR!
-32 error npm ERR! While resolving: root@undefined
-32 error npm ERR! Found: typescript@5.5.4
-32 error npm ERR! node_modules/typescript
-32 error npm ERR!   dev typescript@"^5.0.4" from the root project
-32 error npm ERR!   peer typescript@">=2.7" from ts-node@10.9.2
-32 error npm ERR!   node_modules/ts-node
-32 error npm ERR!     dev ts-node@"^10.9.1" from the root project
-32 error npm ERR!
-32 error npm ERR! Could not resolve dependency:
-32 error npm ERR! dev typedoc@"^0.24.7" from the root project
-32 error npm ERR!
-32 error npm ERR! Conflicting peer dependency: typescript@5.1.6
-32 error npm ERR! node_modules/typescript
-32 error npm ERR!   peer typescript@"4.6.x || 4.7.x || 4.8.x || 4.9.x || 5.0.x || 5.1.x" from typedoc@0.24.8
-32 error npm ERR!   node_modules/typedoc
-32 error npm ERR!     dev typedoc@"^0.24.7" from the root project
-32 error npm ERR!
-32 error npm ERR! Fix the upstream dependency conflict, or retry
-32 error npm ERR! this command with --force, or --legacy-peer-deps
-32 error npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
-32 error npm ERR!
-32 error npm ERR! See /Users/frank/.npm/eresolve-report.txt for a full report.
-32 error
-32 error npm ERR! A complete log of this run can be found in:
-32 error npm ERR!     /Users/frank/.npm/_logs/2024-09-06T13_26_18_812Z-debug-0.log
-32 error     at makeError (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-32 error     at handlePromise (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
-32 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-32 error     at async Promise.all (index 0)
+42 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin frank
+42 error remote: Support for password authentication was removed on August 13, 2021.
+42 error remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+42 error fatal: Authentication failed for 'https://github.com/taoziUncle/web-standard.git/'
+42 error     at makeError (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+42 error     at handlePromise (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
