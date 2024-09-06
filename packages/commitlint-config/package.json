@@ -8,7 +8,7 @@
   "author": "Liu Tao <tomasliu369@gmail.com>",
   "homepage": "https://github.com/taoziUncle/web-standard#readme",
   "license": "ISC",
-  "main": "lib/web-standard-commitlint-config.js",
+  "main": "lib/commitlint-config.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,7 +21,7 @@
     "url": "git+https://github.com/taoziUncle/web-standard.git"
   },
   "scripts": {
-    "test": "node ./__tests__/web-standard-commitlint-config.test.js"
+    "test": "node ./__tests__/commitlint-config.test.js"
   },
   "bugs": {
     "url": "https://github.com/taoziUncle/web-standard/issues"
