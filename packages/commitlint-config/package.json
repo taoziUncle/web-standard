@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/taoziUncle/web-standard/issues"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
   }
 }
