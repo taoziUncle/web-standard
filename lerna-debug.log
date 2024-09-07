@@ -1,6 +1,4 @@
-42 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin frank
-42 error remote: Support for password authentication was removed on August 13, 2021.
-42 error remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-42 error fatal: Authentication failed for 'https://github.com/taoziUncle/web-standard.git/'
-42 error     at makeError (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-42 error     at handlePromise (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+44 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin frank
+44 error fatal: unable to access 'https://github.com/taoziUncle/web-standard.git/': Operation timed out after 300037 milliseconds with 0 out of 0 bytes received
+44 error     at makeError (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+44 error     at handlePromise (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
