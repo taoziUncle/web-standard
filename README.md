@@ -25,5 +25,11 @@ module.exports = {
 ### 安装husky
 ```bash
 pnpm run prepare
-npx husky add .husky/pre-commit "npm run lint-staged
+# npx husky add .husky/pre-commit "npm run lint-staged"
+echo "npx commitlint --edit $1" > .husky/commit-msg
+```
+
+### publish
+```bash
+pnpm publish
 ```
