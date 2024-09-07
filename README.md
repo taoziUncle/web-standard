@@ -25,4 +25,5 @@ module.exports = {
 ### 安装husky
 ```bash
 pnpm run prepare
+npx husky add .husky/pre-commit "npm run lint-staged
 ```
