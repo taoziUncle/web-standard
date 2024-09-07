@@ -22,3 +22,7 @@ module.exports = {
 	extends: ['web-standard-commitlint-config'],
 };
 ```
+### 安装husky
+```bash
+pnpm run prepare
+```
