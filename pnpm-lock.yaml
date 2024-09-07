@@ -13,7 +13,7 @@ importers:
         version: 4.6.3
     devDependencies:
       '@commitlint/cli':
-        specifier: ^17.6.1
+        specifier: ^17.8.1
         version: 17.8.1
       husky:
         specifier: ^8.0.3
@@ -54,6 +54,9 @@ importers:
       vuepress-plugin-zooming:
         specifier: ^1.1.7
         version: 1.1.8
+      web-standard-commitlint-config:
+        specifier: ^0.0.7
+        version: 0.0.7
 
   packages/commitlint-config:
     dependencies:
@@ -6722,6 +6725,9 @@ packages:
 
   wcwidth@1.0.1:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
+
+  web-standard-commitlint-config@0.0.7:
+    resolution: {integrity: sha512-XdYtLTVhDiCacjnU5S95bn/MeN3y+tv/28xn2BJWvvp+bvoalcemXSAAflrT9+LVfcdsp6kTTOZlA7GOjz+qQA==}
 
   webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
@@ -15254,6 +15260,10 @@ snapshots:
   wcwidth@1.0.1:
     dependencies:
       defaults: 1.0.4
+
+  web-standard-commitlint-config@0.0.7:
+    dependencies:
+      conventional-changelog-conventionalcommits: 4.6.3
 
   webidl-conversions@3.0.1: {}
 
