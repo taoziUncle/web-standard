@@ -1,6 +1,6 @@
 {
   "name": "web-standard-commitlint-config",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "commitlint standard",
   "keywords": [
     "commitlint"
