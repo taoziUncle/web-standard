@@ -93,6 +93,7 @@
     "url": "git+https://github.com/taoziUncle/web-standard.git"
   },
   "bugs": {
-    "url": "https://github.com/encode-studio-fe/fe-spec/issues"
-  }
+    "url": "https://github.com/taoziUncle/web-standard/issues"
+  },
+  "gitHead": "17c595f1eca504f055cf5af5d877a3abfe46a9a1"
 }
