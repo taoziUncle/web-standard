@@ -1,6 +1,10 @@
-44 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin frank
-44 error remote: Support for password authentication was removed on August 13, 2021.
-44 error remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-44 error fatal: Authentication failed for 'https://github.com/taoziUncle/web-standard.git/'
-44 error     at makeError (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-44 error     at handlePromise (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+41 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+41 error npm ERR! code EUNSUPPORTEDPROTOCOL
+41 error npm ERR! Unsupported URL Type "workspace:": workspace:^
+41 error
+41 error npm ERR! A complete log of this run can be found in:
+41 error npm ERR!     /Users/frank/.npm/_logs/2024-09-08T09_44_15_538Z-debug-0.log
+41 error     at makeError (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+41 error     at handlePromise (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+41 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+41 error     at async Promise.all (index 0)
