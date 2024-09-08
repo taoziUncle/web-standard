@@ -1,6 +1,12 @@
 import path from 'path';
 import fs from 'fs-extra';
 
+
+if (!fs.existsSync(path.join(__dirname, '../../package.json'))) {
+  console.error('Error: package.json.文件不存在， 请确认你在正确的文档地址中且已经初始化了你的react或vue项目');
+  process.exit(1);
+}
+
 // 读取 package.json
 const pkg: Record<string, any> = JSON.parse(
   fs.readFileSync(path.join(__dirname, '../../package.json'), 'utf8'),
