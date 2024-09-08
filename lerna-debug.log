@@ -3,7 +3,7 @@
 41 error npm ERR! Unsupported URL Type "workspace:": workspace:^
 41 error
 41 error npm ERR! A complete log of this run can be found in:
-41 error npm ERR!     /Users/frank/.npm/_logs/2024-09-08T09_44_15_538Z-debug-0.log
+41 error npm ERR!     /Users/frank/.npm/_logs/2024-09-08T09_52_01_377Z-debug-0.log
 41 error     at makeError (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
 41 error     at handlePromise (/Users/frank/project/originCode/前端规范工程化/web-standard/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
 41 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

@@ -1,6 +1,6 @@
 {
   "name": "web-standard-lint",
-  "version": "0.0.9",
+  "version": "0.0.13",
   "description": "前端编码规范工程化脚手架",
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
@@ -52,10 +52,10 @@
     "commander": "^6.2.1",
     "cross-spawn": "^7.0.3",
     "ejs": "^3.1.5",
-    "encode-fe-commitlint-config": "workspace:^",
-    "encode-fe-eslint-config": "workspace:^",
-    "encode-fe-markdownlint-config": "workspace:^",
-    "encode-fe-stylelint-config": "workspace:^",
+    "encode-fe-commitlint-config": "^1.0.0",
+    "encode-fe-eslint-config": "^1.0.0",
+    "encode-fe-markdownlint-config": "^1.0.0",
+    "encode-fe-stylelint-config": "^1.0.8",
     "eslint": "^8.7.0",
     "eslint-config-egg": "^10.0.0",
     "eslint-config-prettier": "^8.3.0",
@@ -85,14 +85,15 @@
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0"
   },
-  "author": "chenghuai",
-  "homepage": "https://github.com/encode-studio-fe/fe-spec#readme",
+  "author": "Liu Tao <tomasliu369@gmail.com>",
+  "homepage": "https://github.com/taoziUncle/web-standard#readme",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/encode-studio-fe/fe-spec.git"
+    "url": "git+https://github.com/taoziUncle/web-standard.git"
   },
   "bugs": {
-    "url": "https://github.com/encode-studio-fe/fe-spec/issues"
-  }
+    "url": "https://github.com/taoziUncle/web-standard/issues"
+  },
+  "gitHead": "17c595f1eca504f055cf5af5d877a3abfe46a9a1"
 }
