@@ -85,6 +85,10 @@ export default async (options: InitOptions) => {
   const config: Record<string, any> = {};
   // package.json的路径
   const pkgPath = path.resolve(cwd, 'package.json');
+  if (!fs.existsSync(pkgPath)) {
+    console.error('Error: package.json.文件不存在， 请确认你在正确的文档地址中且已经初始化了你的react或vue项目');
+    process.exit(1);
+  }
   // package.json的内容
   let pkg: PKG = fs.readJSONSync(pkgPath);
 
